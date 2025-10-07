@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Titre du projet :
 
-## Getting Started
+SmartChat – Chatbot intelligent pour étudiants
 
-First, run the development server:
+Description du projet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+SmartChat est une application web interactive conçue pour faciliter la communication entre les étudiants et un assistant virtuel intelligent.
+Grâce à l’intégration de technologies d’IA et de NLP (Natural Language Processing), le chatbot est capable de comprendre les questions des étudiants et d’y répondre de manière pertinente et naturelle.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+L’objectif est de créer un outil moderne, simple d’utilisation, et utile dans un contexte universitaire, permettant aux étudiants d’obtenir rapidement des informations sur leurs cours, les horaires, les événements, ou d’autres aspects de la vie étudiante.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Public cible :
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Étudiants
 
-## Learn More
+Technologies utilisées :
 
-To learn more about Next.js, take a look at the following resources:
+Front-End :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+React
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+CSS3 / TailwindCSS
 
-## Deploy on Vercel
+Back-End :
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Node.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Express.js
+
+Base de données (BDD) :
+
+PostgreSQL
+
+API & Services :
+
+REST API
+
+Données et multimédia :
+
+JSON / XML
+
+Outils & environnements :
+
+Git / GitHub
+
+Autres technologies :
+
+IA / NLP (Natural Language Processing)
+
+Fonctionnalités prévues :
+
+Formulaire d’interaction utilisateur
+
+Dashboard d’administration pour la gestion des réponses
+
+Système de filtres et de tri des requêtes
+
+Chatbot ou assistant virtuel intelligent
+
+Lien GitHub :
+
+https://github.com/hichem-25/THYP_25-26_formulaireProjet
