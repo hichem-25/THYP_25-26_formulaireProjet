@@ -24,13 +24,13 @@ L’objectif est de créer un outil moderne, simple d’utilisation et utile dan
 - Node.js  
 - Express.js  
 
-### Base de données (BDD)
+### Base de données
 - PostgreSQL  
 
 ### API & Services
 - REST API  
 
-### Données et multimédia
+### Données et formats
 - JSON / XML  
 
 ### Outils & environnements
@@ -42,12 +42,43 @@ L’objectif est de créer un outil moderne, simple d’utilisation et utile dan
 ---
 
 ## Fonctionnalités prévues
-- Formulaire d’interaction utilisateur  
+- L’utilisateur peut poser des questions au chatbot  
+- Le chatbot répond automatiquement à chaque question  
 - Dashboard d’administration pour la gestion des réponses  
-- Système de filtres et de tri des requêtes  
-- Chatbot ou assistant virtuel intelligent  
+- Historique des questions et réponses  
+- Système de filtres et de recherche  
 
 ---
 
-## Lien GitHub
-[https://github.com/hichem-25/THYP_25-26_formulaireProjet](https://github.com/hichem-25/THYP_25-26_formulaireProjet)
+## Diagramme de classes
+
+```mermaid
+classDiagram
+    class Utilisateur {
+        +int id
+        +string nom
+        +string email
+        +string role
+        +poserQuestion()
+    }
+
+    class Question {
+        +int id
+        +string contenu
+        +datetime dateEnvoi
+    }
+
+    class Reponse {
+        +int id
+        +string contenu
+        +datetime dateReponse
+    }
+
+    class Chatbot {
+        +traiterQuestion()
+        +genererReponse()
+    }
+
+    Utilisateur "1" --> "0..*" Question : pose
+    Chatbot "1" --> "0..*" Reponse : renvoie
+    Question "0..*" --> "1" Chatbot : adressée_à
